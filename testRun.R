@@ -1,0 +1,3 @@
+library(MPIHelloWorld)
+
+Hello()

@@ -1,0 +1,11 @@
+Package: MPIHelloWorld
+Version: 1.0.0
+Title: Hello World
+Author: Thomas Sherman, Tiger Gao
+Description: Hello World with MPI
+Depends:
+    R (>= 3.4.0),
+    Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+NeedsCompilation: yes
+RoxygenNote: 5.0.1
