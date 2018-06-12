@@ -5,7 +5,7 @@ m4_builtin([include], m4/ax_compiler_version.m4)
 m4_builtin([include], m4/ax_openmp.m4)
 
 # get version of MPIHelloWorld from DESCRIPTION file
-AC_INIT(MPIHelloWorld, m4_esyscmd_s([awk -e '/^Version:/ {print $2}' Repo/DESCRIPTION]))
+AC_INIT(MPIHelloWorld, m4_esyscmd_s([awk -e '/^Version:/ {print $2}' package/DESCRIPTION]))
 
 # get C++ compiler from R configuration
 CXX=`"${R_HOME}/bin/R" CMD config CXX`

@@ -3,10 +3,10 @@ install : build
 
 build :
 	rm -f MPIHelloWorld_*.tar.gz
-	R CMD build --no-build-vignettes Repo
+	R CMD build --no-build-vignettes package
 
 configure_script :
-	autoconf Repo/configure.ac > Repo/configure
+	autoconf package/configure.ac > package/configure
 	rm -rf autom4te.cache
 
 set_compiler_gcc :

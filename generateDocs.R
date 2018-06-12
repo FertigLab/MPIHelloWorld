@@ -1,2 +1,1 @@
-roxygen2::roxygenise('./Repo')
-#devtools::document("./Repo")
+roxygen2::roxygenise('./package')

@@ -1,1 +1,1 @@
-Rcpp::compileAttributes('./Repo')
+Rcpp::compileAttributes('./package')
